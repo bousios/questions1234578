@@ -1,0 +1,154 @@
+h1 {
+
+     font :20pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+     font-weight: bold;
+     color:white;
+     text-align: center;
+     line-height: 50pt;
+     height :50pt;
+     background-color:#3F45AE;
+}
+
+div.body {
+
+     font :12pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+     font-style: bold;
+     color:black;
+     text-align: center;
+}
+
+
+div.footer {
+
+
+     font :8pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+     font-style: italic;
+     color:black;
+     text-align: center;
+     line-height: 120pt;
+}
+
+input[type=button] {
+	width: 150px; 
+	height: 50px; 
+	font-weight: bold;
+}
+
+input[type=text] {
+	height: 40px; 
+	size=30; 
+	align : center;
+}
+
+input[type=tel] {
+	height: 40px; 
+	size=30; 
+	align : center;
+}
+
+body.fadein {
+	
+	-moz-animation: fadein 2s; /*Firefox*/
+	-webkit-animation: fadein 2s; /* Safari / Chrome */
+	-o-animation: fadein 2s; /* Safari / Chrome */
+	 animation: fadein 2s; /* W3C */
+}
+
+@-moz-keyframes fadein {
+	
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-webkit-keyframes fadein {
+	
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-o-keyframes fadein {
+	
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@-ms-keyframes fadein {
+	
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@keyframes fadein {
+	
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+body.slidein {
+	
+	-moz-animation: slidein 2s; /*Firefox*/
+	-webkit-animation: slidein 2s; /* Safari / Chrome */
+	-o-animation: slidein 2s; /* Safari / Chrome */
+	 animation: slidein 2s; /* W3C */
+}
+
+@-moz-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@-o-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+@-ms-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
